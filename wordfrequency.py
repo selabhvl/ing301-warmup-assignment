@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-# Dette er Starterkoden til den første øvelsen i ING 301
+# Dette er start-koden til den første programmeringsoppgave i ING 301
 #
 # Du skal utvikle et programm som finner det hyppigste ordet i en gitt tekstfil.
 # Dette høres kanskje litt komplisiert ut, men fortvil ikke!
@@ -27,7 +27,7 @@ def lines_to_words(lines):
     kommaer (,), spørsmåls- (?) og utråbstegn (!) skal fjernes underveis.
     Til sist skal alle ord i den resulterende listen være skrevet i små bokstav slik at "Odin" og "odin"
     blir behandlet likt.
-    OBS! Pass også på at du ikke legge til tomme ord (dvs. "" eller '' skal ikke være med) i resultatlisten!
+    OBS! Pass også på at du ikke legger til tomme ord (dvs. "" eller '' skal ikke være med) i resultatlisten!
 
     F. eks: Inn: ["Det er", "bare", "noen få ord"], Ut: ["Det", "er", "bare", "noen", "få", "ord"]
     """
@@ -40,7 +40,7 @@ def lines_to_words(lines):
 def compute_frequency(words):
     """
     Denne funksjonen tar inn en liste med ord og så lager den en frekvenstabell ut av den. En frekvenstabell
-    teller hvor ofte hvert ord dykket opp i den opprinnelige innputt listen. Frekvenstabllen
+    teller hvor ofte hvert ord dykket opp i den opprinnelige input listen. Frekvenstabllen
     blir realisert gjennom Python dictionaires: https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
 
     F. eks. Inn ["hun", "hen", "han", "hen"], Ut: {"hen": 2, "hun": 1, "han": 1}
