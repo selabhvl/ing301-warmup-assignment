@@ -1,5 +1,5 @@
 import unittest
-import wordfrequency as wf
+import wordfrequency.wordfrequency as wf
 
 class TestAssignment2(unittest.TestCase):
 
