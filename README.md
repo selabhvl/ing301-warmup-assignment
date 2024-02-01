@@ -12,7 +12,7 @@ Du skal først opprette en kopi av denne oppgaveringsplassen på din egen GitHub
 
 https://github.com/selabhvl/ing301-warmup-assignment
 
-og så velge *Use as Template* etterfulgt av  *Create new repository". 
+og så velge *Use as Template* etterfulgt av  *Create new repository*. 
 
 Etter dette går du inn på det repository som netopp er blitt opprettet og kloner denne oppbevaringsplassen ned på din egen PC tilsvarende som du gjorde med ing301public repositoriet tidligere.
 
