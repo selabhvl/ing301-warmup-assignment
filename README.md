@@ -20,19 +20,13 @@ Når dette er kan du importere koden inn i den IDE du bruker og så løse progra
 
 # Hva skal skal implementeres
 
-Filen `wordfrequency/wordfrequency.py` inneholder selve start-koden i form av noen metoder som skal implementeres. Kommentarene i koden forklarer hva koden du skal skrive skal gjøre.
+Filen `wordfrequency.py` inneholder selve start-koden i form av noen metoder som skal implementeres. 
+Kommentarene i koden forklarer hva koden du skal skrive skal gjøre også gir dem noen tipps på hvordan man løser hver oppgave.
 
 # Teste koden
 
-Filen `tests/tests/test_wordfrequency.py` inneholder koden som kan teste metodene som du skal implementere. 
+Filen `test_wordfrequency.py` inneholder koden som kan teste metodene som du skal implementere. 
 
-For å kjøre testene kan du installere `pytest`:
-
-```
-pip install -r requirements.txt 
-```
-
-og så utføre:
 
 ```
 pytest
