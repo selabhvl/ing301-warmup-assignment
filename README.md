@@ -12,11 +12,11 @@ Du skal først opprette en kopi av denne oppgaveringsplassen på din egen GitHub
 
 https://github.com/selabhvl/ing301-warmup-assignment
 
-og så velge *Use as Template* etterfulgt av  *Create new repository*. 
+og så velger du *Use as Template* (grønn knapp oppe til høyre) etterfulgt av *Create new repository*. 
 
-Etter dette går du inn på det repository som netopp er blitt opprettet og kloner denne oppbevaringsplassen ned på din egen PC tilsvarende som du gjorde med `ing301public` repositoriet tidligere.
+Etter at dette er gjort, går du inn på det repository som netopp er blitt opprettet og kloner denne oppbevaringsplassen ned på din egen PC tilsvarende som du gjorde med `ing301public` repositoriet tidligere.
 
-Når dette er kan du importere koden inn i den IDE du bruker og så løse programmeringsoppgavene.
+Nå kan du importere koden inn i den IDE ved å åpne det _repository_ du nettopp har lastet ned som _mappe_.
 
 # Hva skal skal implementeres
 
@@ -28,8 +28,12 @@ Kommentarene i koden forklarer hva koden du skal skrive skal gjøre også gir de
 Filen `test_wordfrequency.py` inneholder koden som kan teste metodene som du skal implementere. 
 
 
+Du kan kjøre den med
 ```
-pytest
+python3 test_wordfrequency.py
 ```
+
+I tilegg, blir koden også automatisk testet hver gang du laster opp en ny versjon.
+På GitHub siden kan du trykke på _Actions_ som viser deg hvor mye av testene fungerer alt.
 
 Frist for innlevering: Se Canvas

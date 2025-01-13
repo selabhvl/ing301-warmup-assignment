@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 
 
 # Dette er start-koden til den første programmeringsoppgave i ING 301
@@ -92,7 +93,10 @@ def find_most_frequent(frequency_table):
 
 
 def main():
-    file = str(Path(__file__).parent.absolute()) + "/voluspaa.txt"
+    if len(sys.argv) > 1 and Path(sys.argv[1]).exists():
+        file = sys.argv[1]
+    else:
+        file = str(Path(__file__).parent.absolute()) + "/voluspaa.txt"
     lines = read_file(file)
     words = lines_to_words(lines)
     table = compute_frequency(words)
