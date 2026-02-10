@@ -2,7 +2,7 @@ import unittest
 import wordfrequency as wf
 from pathlib import Path
 
-class TestAssignment2(unittest.TestCase):
+class TestAssignment(unittest.TestCase):
 
     def test_read_file(self):
         expected = ["Det er", "bare", "noen få ord her!"]
