@@ -4,7 +4,7 @@ Dette er den første programmeringsoppgave i emnet. Oppgaven er *individuell* me
 
 Formålet med oppgavene er å få alle up-to-speed med programmering i Python og via dette kort repeterer de viktigste tingene om grunnleggende programmering i Python.
 
-Du skal implementere metodene i [wordfrequency.py](wordfrequency.py) og test at de fungerer ved å bruke enhetstestene i [text_wordfrequency.py](text_wordfrequency.py).
+Du skal implementere metodene i [wordfrequency.py](wordfrequency.py) og test at de fungerer ved å bruke enhetstestene i [test_wordfrequency.py](text_wordfrequency.py).
 
 # Hvordan bruke denne startkoden?
 
@@ -21,7 +21,8 @@ Nå kan du importere koden inn i den IDE ved å åpne det _repository_ du nettop
 # Hva skal skal implementeres
 
 Filen `wordfrequency.py` inneholder selve start-koden i form av noen metoder som skal implementeres. 
-Kommentarene i koden forklarer hva koden du skal skrive skal gjøre også gir dem noen tipps på hvordan man løser hver oppgave.
+
+Kommentarene i koden forklarer hva koden du skal skrive skal gjøre også gir dem noen tips på hvordan man løser hver oppgave.
 
 # Teste koden
 
@@ -34,6 +35,7 @@ python3 test_wordfrequency.py
 ```
 
 I tilegg, blir koden også automatisk testet hver gang du laster opp en ny versjon.
+
 På GitHub siden kan du trykke på _Actions_ som viser deg hvor mye av testene fungerer alt.
 
 Frist for innlevering: Se Canvas
